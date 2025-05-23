@@ -20,15 +20,15 @@ function Hero() {
         
         {/*sponsor button */}
 
-        <button className='font-poppins text-sm md:text-base text-[#1c1c1c] py-1 md:py-2 px-5  rounded-4xl shadow-[1px_1px_2px_#a6a6a6,-5px_-5px_10px_#ffffff] duration-300 hover:text-[#6D7AFF]'>
-          <span className='font-bold text-xl'>F</span>  Powered by Framer
+        <button className='font-poppins text-sm 2xl:text-[16px] md:text-base text-[#1c1c1c] py-1 md:py-2 px-5  rounded-4xl shadow-[1px_1px_2px_#a6a6a6,-5px_-5px_10px_#ffffff] duration-300 hover:text-[#6D7AFF] cursor-pointer'>
+          <span className='font-bold text-xl '>F</span>  Powered by Framer
         </button>
         {/* Hero Heading */}
-        <h1 className='text-[#1c1c1c]   text-[35px] md:text-[48px] text-center font-semibold'>Transform Your Business with <br/> <span className='text-[#6d7aff]'>AI-Driven Automation</span></h1>
+        <h1 className='text-[#1c1c1c]   text-[35px] md:text-[48px] 2xl:text-[60px] text-center font-semibold'>Transform Your Business with <br/><span className='text-[#6d7aff]'>AI-Driven Automation</span></h1>
 
         {/* Tagline */}
 
-        <p className='text-center text-[12px] md:text-[16px] text-[#4d4d4d] opacity-90 font-light'>Harness the power of artificial intelligence to automate your most critical business processes,<br/> saving time and reducing costs.</p>
+        <p className='text-center text-[16px] sm:text-[12px] md:text-[16px] 2xl:text-[18px] text-[#4d4d4d] opacity-90 font-light px-6'>Harness the power of artificial intelligence to automate your most critical business processes,<br/> saving time and reducing costs.</p>
 
         {/* button */}
 
@@ -53,7 +53,7 @@ function Hero() {
 
         {/* rating star and text */}
 
-        <div className='flex flex-col justify-center items-center md:items-start'>
+        <div className='flex flex-col justify-center items-center gap-3 sm:gap-0 md:items-start'>
             {/* Rating stars */}
 
         <div className='flex '>
@@ -70,7 +70,7 @@ function Hero() {
 
        {/* Sponsors */}
 
-        <div className="flex gap-10 md:gap-15 my-10 md:my-15 ">
+        <div className="flex flex-col sm:flex-row gap-10 md:gap-15 my-10 md:my-15 ">
       {[Logo1, Logo2, Logo3, Logo4].map((logo, index) => (
         <img key={index} src={logo} alt={`Logo ${index + 1}`} className="w-30 md:w-35 filter grayscale z-20" />
       ))}

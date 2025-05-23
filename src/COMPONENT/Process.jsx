@@ -4,7 +4,7 @@ import { FaRocket } from "react-icons/fa";
 function Process() {
   return (
     <div
-      className="relative md:top-50 pt-60 md:pt-26 bg-[#ecedf1]"
+      className="relative md:top-50 pt-60 md:pt-26 bg-[#ecedf1]  sm:pb-10"
       id="#process"
     >
       {/* pTag , heading , tagline */}
@@ -16,13 +16,13 @@ function Process() {
 
         {/* heading */}
 
-        <h2 className="text-[29px] md:text-[40px] font-semibold text-[#1c1c1c]">
+        <h2 className="text-[29px] md:text-[40px] 2xl:text[45px] font-semibold text-[#1c1c1c]">
           Our <span className="text-[#6d7aff]">Proven Process</span>
         </h2>
 
         {/* tagline */}
 
-        <p className="text-[16px] md:text-[18px] text-[1c1c1c]">
+        <p className="text-[16px] md:text-[18px] text-[#1c1c1c] text-center w-70 sm:w-auto">
           From concept to execution, see how we bring AI to life in your
           business
         </p>
@@ -30,14 +30,14 @@ function Process() {
 
       {/* DummyBar container , text-div  -------CONTAINERS*/}
 
-      <div className="flex flex-col justify-center items-center ">
+      <div className="flex flex-col   justify-center items-center ">
         {/* ----------FIRST-CONTAINER---------- */}
 
-        <div className="flex flex-col justify-center items-center mt-15 md:m-20  gap-[60px]">
+        <div className="flex flex-col justify-center 2xl:flex-row items-center mt-15 md:m-20  gap-[60px]">
 
           {/* DummyBar container */}
 
-          <div className=" w-[340px] md:w-[32rem] h-[272px] md:h-[25rem] shadow-[19px_19px_38px_#cacaca,-10px_-10px_10px_#f6f6f6] rounded-3xl bg-[#ecedf1]">
+          <div className="w-screen sm:w-[340px] md:w-[32rem] h-[272px] md:h-[25rem] shadow-[19px_19px_38px_#cacaca,-10px_-10px_10px_#f6f6f6] rounded-3xl bg-[#ecedf1]">
             {/* DummyBars */}
 
             <div className="p-[10px] md:p-[25px] flex flex-col gap-[10px] md:gap-[20px]">
@@ -57,7 +57,7 @@ function Process() {
             <h3 className="text-[15px] md:text-[20px] text-[#1c1c1c] font-semibold">
               Discovery & Analysis
             </h3>
-            <p className=" text-[12px] md:text-[16px] text-[#4d4d4d] font-light w-130 ">
+            <p className="text-[16px] sm:text-[12px] md:text-[16px] text-[#4d4d4d] font-light w-70 sm:w-130 ">
               We delve deep into your business processes to identify areas
                ready for automation. We engage with your team, analyze
                workflows, and pinpoint where AI can make a big impact.
@@ -67,10 +67,10 @@ function Process() {
 
         {/* ----------SECOND-CONTAINER---------- */}
 
-        <div className="flex flex-col justify-center items-center mt-15 md:mt-20 gap-[60px]">
+        <div className="flex flex-col justify-center 2xl:flex-row-reverse items-center mt-15 md:mt-20 gap-[60px]">
           {/* DummyBar container-second */}
 
-          <div className="w-[340px] md:w-[32rem] h-[272px] md:h-[25rem] shadow-[19px_19px_38px_#cacaca,-10px_-10px_10px_#f6f6f6] rounded-3xl bg-[#ecedf1]">
+          <div className="w-screen sm:w-[340px] md:w-[32rem] h-[272px] md:h-[25rem] shadow-[19px_19px_38px_#cacaca,-10px_-10px_10px_#f6f6f6] rounded-3xl bg-[#ecedf1]">
             {/* dot coontainer */}
 
             <div className=" flex flex-col gap-[10px] md:gap-[20px]">
@@ -91,10 +91,10 @@ function Process() {
         [3, 5], [3, 5], [1], [3, 5], [3, 10], [3, 15], [3, 5], [1], [3, 5], [3, 10]
       ].map((row, rowIndex) => (
         <div key={rowIndex} className="flex gap-3">
-          <div className={`w-5 md:w-8 h-3 md:h-4 bg-[#4d4d4d] opacity-20 rounded-xl mr-${row[1]}`} />
+          <div className={` w-5 md:w-8 h-3 md:h-4 bg-[#4d4d4d] opacity-20 rounded-xl mr-${row[1]}`} />
           {row[0] > 1 && (
             <>
-              <div className="h-3 md:h-4 w-20 md:w-30 bg-[#4d4d4d] opacity-20 rounded-xl" />
+              <div className="h-3 md:h-4 w-full sm:w-20 md:w-30 bg-[#4d4d4d] opacity-20 rounded-xl" />
               <div className="h-3 md:h-4 w-18 md:w-25 bg-[#4d4d4d] opacity-20 rounded-xl" />
             </>
           )}
@@ -113,7 +113,7 @@ function Process() {
             <h3 className="text-[15px] md:text-[20px] text-[#1c1c1c] font-semibold">
               Development
             </h3>
-            <p className="text-[12px] md:text-[16px] text-[#4d4d4d] font-light w-130">
+            <p className="text-[12px] md:text-[16px] text-[#4d4d4d] font-light w-70 sm:w-130">
               This is where we bring your tailored solutions to life. We'll
                design interfaces that fit seamlessly into your workflows,
                integrating advanced AI technology along the way.
@@ -123,10 +123,10 @@ function Process() {
 
         {/* ----------THIRD-CONTAINER---------- */}
 
-        <div className="flex flex-col justify-center items-center mt-15 md:mt-20 gap-[60px]">
+        <div className="flex flex-col justify-center 2xl:flex-row items-center mt-15 md:mt-20 gap-[60px]">
           {/* DummyBar container */}
 
-          <div className="w-[340px] md:w-[32rem] h-[272px] md:h-[25rem] shadow-[19px_19px_38px_#cacaca,-10px_-10px_10px_#f6f6f6] rounded-3xl bg-[#ecedf1]">
+          <div className="w-screen sm:w-[340px] md:w-[32rem] h-[272px] md:h-[25rem] shadow-[19px_19px_38px_#cacaca,-10px_-10px_10px_#f6f6f6] rounded-3xl bg-[#ecedf1]">
           
             {/* ROcket animation */}
 
@@ -149,7 +149,7 @@ function Process() {
             <h3 className="text-[15px] md:text-[20px] text-[#1c1c1c] font-semibold">
               Deployment
             </h3>
-            <p className="text-[12px] md:text-[16px] text-[#4d4d4d] font-light w-130">
+            <p className="text-[12px] md:text-[16px] text-[#4d4d4d] font-light w-70 sm:w-130">
               We smoothly roll out the solutions into your workflow, provide
                thorough training, and offer ongoing support to keep things
                running smoothly. We're here for you every step of the way.
