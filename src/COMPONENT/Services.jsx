@@ -1,5 +1,5 @@
 import React from "react";
-import ChatGpt from "../assets/search engines/ChatGpt.png";
+import ChatGpt from "../assets/search engines/ChatGPT.png";
 import Windows from "../assets/search engines/Windows.png";
 import Notion from "../assets/search engines/Notion.png";
 import Make from "../assets/search engines/make.png";
