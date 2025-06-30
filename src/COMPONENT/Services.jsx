@@ -7,10 +7,10 @@ import Zapier from "../assets/search engines/Zapier.png";
 import Airtable from "../assets/search engines/Airtable.png";
 import Google from "../assets/search engines/Gmail.png";
 import { FaPaperPlane } from "react-icons/fa";
-import Pic1 from "../assets/images/Pic1.jpg";
-import Pic2 from "../assets/images/Pic2.jpg";
-import Pic3 from "../assets/images/Pic3.jpg";
-import Pic4 from "../assets/images/Pic4.jpg";
+import Pic1 from "../assets/images/pic1.jpg";
+import Pic2 from "../assets/images/pic2.jpg";
+import Pic3 from "../assets/images/pic3.jpg";
+import Pic4 from "../assets/images/pic4.jpg";
 
 function Services() {
   return (
