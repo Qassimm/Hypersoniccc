@@ -4,10 +4,10 @@ import Pic1 from '../assets/images/pic1.jpg'
 import Pic2 from '../assets/images/pic2.jpg'
 import Pic3 from '../assets/images/pic3.jpg'
 import Pic4 from '../assets/images/pic4.jpg'
-import Logo1 from '../assets/logos/Logo1.svg'
-import Logo2 from '../assets/logos/Logo2.svg'
-import Logo3 from '../assets/logos/Logo3.svg'
-import Logo4 from '../assets/logos/Logo4.svg'
+import Logo1 from '../assets/logos/logo1.svg'
+import Logo2 from '../assets/logos/logo2.svg'
+import Logo3 from '../assets/logos/logo3.svg'
+import Logo4 from '../assets/logos/logo4.svg'
 
 
 function Hero() {
