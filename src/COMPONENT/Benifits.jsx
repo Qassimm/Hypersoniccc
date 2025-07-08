@@ -43,7 +43,7 @@ const benefitsData = [
 
 function Benifits() {
   return (
-    <div className="relative md:top-50 pt-30 sm:pt-60 md:pt-50 bg-[#ECEDF1] flex flex-col overflow-x-hidden items-center">
+    <div id="benefits" className="relative md:top-50 pt-30 sm:pt-60 md:pt-50 bg-[#ECEDF1] flex flex-col overflow-x-hidden items-center">
       {/* Heading Section */}
       <div className="flex flex-col gap-[40px] py-[40px]">
         <div className="gap-[10px] flex flex-col items-center justify-center">

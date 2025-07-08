@@ -9,7 +9,7 @@ function Process() {
     >
       {/* pTag , heading , tagline */}
 
-      <div className="gap-[10px] flex flex-col items-center justify-center ">
+      <div id="process" className="gap-[10px] flex flex-col items-center justify-center ">
         <p className="bg-[ecedf1] text-[#6D7AFF] shadow-[inset_3px_3px_3px_#cacaca,inset_-5px_-5px_10px_white] py-1 md:py-2 px-4 rounded-3xl">
           Process
         </p>

@@ -39,7 +39,7 @@ function Testimonial() {
 
 
   return (
-    <div className='relative md:top-50 pt-30 sm:pt-60 md:pt-50 bg-[#ECEDF1] flex flex-col overflow-x-hidden items-center pb-5'>
+    <div id='testimonial' className='relative md:top-50 pt-30 sm:pt-60 md:pt-50 bg-[#ECEDF1] flex flex-col overflow-x-hidden items-center pb-5'>
     
      {/* heading section */}
 

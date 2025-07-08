@@ -15,7 +15,7 @@ function Hero() {
     const stars = Array(5).fill(0); // 5 Stars rating
 
   return (
-    <div>
+    <div >
       <hero className='flex justify-center items-center flex-col  relative top-35 md:top-50 gap-6 bg-[#ecedf1]'>
         
         {/*sponsor button */}

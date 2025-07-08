@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaTwitter , FaInstagram , FaLinkedin , FaFacebook } from 'react-icons/fa'
 
-function Footer() {
+function Footer({ setActiveLink }) {
 
     const socialIcons = [
   { icon: FaLinkedin, hoverColor: "hover:bg-blue-500" },
@@ -9,6 +9,14 @@ function Footer() {
   { icon: FaInstagram, hoverColor: "hover:bg-pink-500" },
   { icon: FaFacebook, hoverColor: "hover:bg-blue-600" },
 ];
+
+const navLinks = [{ label: "Process", href: "#process" },
+  { label: "Services", href: "#services" },
+  { label: "Benifits", href: "#benefits" },
+  { label: "About", href: "#about" },
+  { label: "Plans", href: "#plans" },
+  { label: "FAQ", href: "#faq" }];
+
   return (
     <div className='relative md:top-50 pt-30 md:pt-50 bg-[#ECEDF1] flex flex-col overflow-x-hidden items-center pb-5'>
       
@@ -23,9 +31,11 @@ function Footer() {
 
     {/* Navbar Links*/}
     <ul className='flex flex-col md:flex-row items-center  gap-5 mt-10'>
-      {["Process", "Services", "Benifits", "About", "Plans","Testimonial" , "FAQ" , "404"].map((nav, index) => (
+      {navLinks.map((nav, index) => (
         <li key={index}>
-          <a href="#" className=' text-[#1c1c1c] p-2   rounded-3xl  hover:text-[#6D7AFF]  active:border-[0.5px] active:border-[#6d7aff] duration-300 opacity-70'>{nav}</a>
+          <a href={nav.href}
+          onClick={() => setActiveLink(nav.href)}
+           className=' text-[#1c1c1c] p-2   rounded-3xl  hover:text-[#6D7AFF]  active:border-[0.5px] active:border-[#6d7aff] duration-300 opacity-70'>{nav.label}</a>
         </li>
       ))}
     </ul>

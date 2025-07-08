@@ -14,9 +14,9 @@ import Pic4 from "../assets/images/pic4.jpg";
 
 function Services() {
   return (
-    <div
+    <div 
       className="relative md:top-50 pt-30 sm:pt-60 md:pt-50 bg-[#ECEDF1] flex flex-col overflow-x-hidden items-center "
-      id="#services"
+      id="services"
     >
       {/* Separate containers */}
       <div className="flex flex-col gap-[40px]">
