@@ -67,7 +67,7 @@ function Navbar() {
 
       {/* Mobile Nav Dropdown */}
       <div
-        className={`md:hidden fixed left-0 top-[65px] w-full bg-[#ecedf1] z-50 overflow-hidden transition-all duration-300 ease-in-out ${
+        className={`md:hidden fixed left-0 top-[50px] w-full bg-[#ecedf1] z-50 overflow-hidden transition-all duration-300 ease-in-out ${
           isOpen ? 'max-h-[500px] py-6 opacity-100' : 'max-h-0 py-0 opacity-0'
         }`}
       >
